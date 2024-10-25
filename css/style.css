@@ -130,10 +130,10 @@ img {
 
 @media screen and (max-width: 1160px) {
     .container{
-       max-width: 90%;
+       max-width: 100%;
+       padding: 0 15px;
     }
 }
-
 
 
 @media screen and (max-width: 480px) {
@@ -147,7 +147,7 @@ img {
     }
  
     h1 {
-        padding: 3rem 15px;
+        padding: 3rem 0;
         margin: 0;
     }
 
@@ -156,10 +156,9 @@ img {
     }
 
     .row{
-       display: flex;
        flex-direction: column;
     }
-    
+
     .steps{
         margin-bottom: 0;
     }
